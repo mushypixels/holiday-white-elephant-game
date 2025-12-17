@@ -9,9 +9,7 @@ HARDWARE REQUIREMENTS:
 GAME BROWSER SETUP:
 
 /youripaddress:3000/          = player brower on their phone
-
 /youripaddress:3000/display   = connect this to the screen via AirPlay etc
-
 /youripaddress:3000/admin     = the games master should have this on their phone. He controls what is shown on the display and the user's phone. 
 
 GAME RULES:
