@@ -1,0 +1,30 @@
+html, body { 
+        font-size: 12px;
+        height: 100%; 
+        background: linear-gradient(to bottom, rgba(255, 4, 4, 0.4) 0%, rgba(255, 0, 0, 0.7) 100%), url("/public/imgs/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+    }
+    h1 { color: white;}
+    #buzzer, .buzzer { 
+        background-color:rgb(2, 190, 27); width: 300px; height: 300px; border-radius: 150px; color: white;
+        font-size: 3em; font-weight: bold; border:0; flex:1; max-width: 300px; max-height: 300px; margin: 0.5em
+    }
+    
+    #steal { background-color: red; }
+    #keep { background-color: green; }
+  
+    .buzzer-small { width: 180px; height: 180px; border-radius: 90px; }
+    
+    input, button { font-size: 2em;flex: 1; }
+    input { border-radius: 0.5em; background-color:rgb(30, 95, 30); color: white; border: none; padding: 0.5em}
+    form button { background-color: rgb(255, 0, 0); color: rgb(255, 255, 255); border: 0; border-radius: 1em; padding:  0.5em 1em; text-transform: uppercase; }
+    form div { width: 100%; text-align: center; margin: 1em auto}
+    #buzzer[disabled], .option[disabled] { 
+        background-color:rgb(10, 34, 13); color: rgb(87, 85, 85);
+    }
+    .selected { background-color: blue;}
+    .disabled {background-color:rgb(10, 34, 13) !important; color: rgb(87, 85, 85) !important;}
+    .options { flex-direction: column; display: flex;}
+    .options button { margin: 0.5em; background-color: green; padding:0.5em; border-radius: 1em; min-height: 2em; color: white; font-weight: bold; border: none}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Display</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/public/css/common.css" />
+  <link rel="stylesheet" href="/public/css/display.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="d-flex justify-content-center align-items-center vh-100 overflow-hidden">
+      <div class="container-xxl text-center d-flex  justify-content-center align-items-center vh-100">
+        <div class="row d-flex  justify-content-center align-items-center vh-100 w-100">
+          <div class="col-9">
+            <div id="intro-panel">
+              <div onclick="playIntro();" style="margin-left:20px;"><img src="/public/imgs/logo.png" class="img-fluid w-75" /></div>
+              <img src="/public/qr.png" style="z-index: 999999;max-width: 250px;" />
+              <h2 class="mt-2 text-uppercase">Scan to play</h2>
+              <div id="registered" class="mt-3 align-items-center d-flex justify-content-center"></div>
+              <audio id="audio-intro" src="/public/intro.mp3" loop preload></audio>
+            </div>
+            <div id="game-panel" style="display:none">
+              <div id="r1-panel" style="display:none" class="bordered-panel">
+                <h1 class="title">ROUND 1<br />Pick A Present</h1>
+                <h2>FASTEST CORRECT ANSWER CHOOSES AN UNCLAIMED GIFT AND MOVES TO THE NEXT ROUND</h2>
+              </div>
+              <div id="r2-panel" style="display:none" class="bordered-panel">
+                <h1 class="title">ROUND 2<br />Spin The Wheel</h1>
+                <h2>Guess the answer to determine who spins first. The closest answer will get to spin last</h2>
+              </div>
+              <div id="r3-panel" style="display:none" class="bordered-panel">
+                <h1 class="title">ROUND 3<br />SPLIT OR STEAL</h1>
+                <div>
+                  <h2>Mystery gift holders can choose to split or steal</h2>
+                </div>
+              </div>
+              <div id="mc-question-panel" style="display:none">
+                <div class="bordered-panel">
+                  <div id="mc-question"></div>
+                  <button class="admin-btn" onclick="showChoices()">SHOW CHOICES</button>
+                  <div id="choices" style="display:none"></div>
+                  <audio id="audio" src="/public/buzz.mp3" preload></audio>
+                </div>
+              </div>
+              <div id="open-question-panel" style="display:none">
+                <div class="bordered-panel vh-75">
+                  <div id="open-question"></div>
+                  <h1 id="open-answer" style="display:none"></h1>
+                </div>
+              </div>
+
+              <div id="category-panel" style="display:none">
+                 <div class="bordered-panel">
+               
+                <h1>CATEGORIES</h1>
+                <ul>
+                  <li>GENERAL KNOWLEDGE</li>
+                  <li>Books</li>
+                  <li>Entertainment</li>
+                  <li>Film </li>
+                  <li>Music</li>
+                  <li>Science &amp; Nature</li>
+                  <li>Geography</li>
+                  <li>History</li>
+                  <li>Celebrities</li>
+                </ul>
+              </div>
+              </div>
+              <div id="spin-panel" style="display:none">
+                <div class="deal-wheel">
+                  <ul class="spinner"></ul>
+                  <figure class="cap">
+                  </figure>
+                  <img class="spinner-image" src="/public/imgs/snowman.png" />
+                  <div class="ticker"></div>
+                  <button class="btn-spin" style="display: none;">Spin the wheel</button>
+                </div>
+                <audio id="audio-round2" src="/public/round2.mp3" preload></audio>
+              </div>
+            </div>
+            <div id="stealorkeep-panel" style="display:none">
+              <div id="stealorkeep-results" class="bordered-panel d-flex flex-row justify-content-center align-items-center">
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="players-panel bordered-panel">
+              <h4>PLAYERS</h4>
+              <div id="player-list"></div>
+              <div id="spin-player-list" style="display: none;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="logo" style="display: none;">
+    <img src="/public/imgs/logo.png" class="img-fluid" />
+  </div>
+  <audio id="audio-intro" src="/public/intro.mp3" loop preload></audio>
+  <audio id="audio-round2" src="/public/round2.mp3" preload></audio>
+  <audio id="audio-correct" src="/public/correct.mp3" preload></audio>
+  <audio id="audio-incorrect" src="/public/incorrect.mp3" preload></audio>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/public/snowfall.js"></script>
+  <script src="snowfall.js"></script>
+  <script src="/public/js/common.js"></script>
+  <script src="/public/js/display.js"></script>
+
+  <script>
+    let snowfall = new Snowfall({
+      // number of snowflakes
+      count: 500,
+      // min/max size
+      minRadius: 10,
+      maxRadius: 50,
+      // min/max speed
+      minSpeed: 0.5,
+      maxSpeed: 2,
+      // custom symbol or text for snowflakes
+      //text: "\u2744", 
+      text: "\u2217",
+      // color of snowflakes
+      color: "#ffffff",
+      // z-index for the canvas
+      zIndex: "0"
+    });
+
+    window.onload = function () {
+      socket.emit('registered');
+      setupWheel();
+    };
+  </script>
+</body>
+
+</html>

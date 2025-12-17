@@ -1,0 +1,38 @@
+
+    .bordered-panel {
+        border: 0.25em solid white;
+        border-radius: 2em;
+        padding: 2em;
+        background-color: rgba(73, 171, 8, 0.7);
+        z-index: 999;
+    }
+
+    h1 { text-transform: uppercase; text-align: center; font-weight: bold; }
+
+    button:disabled, input:disabled, select:disabled, textarea:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+     .bg-primary {
+        background-color: #ff0000 !important;
+    }
+
+    .bg-secondary {
+        background-color: #065006 !important;
+    }           
+
+    .border-primary {
+        border-color: #ff0000 !important;
+    }
+
+    .border-secondary {
+        border-color: #065006 !important;
+    }
+
+    .text-primary {
+        color: #ff0000 !important;
+    }
+    .text-secondary {
+        color: #065006 !important;
+    }

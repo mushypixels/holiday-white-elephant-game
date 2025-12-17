@@ -1,0 +1,45 @@
+type,difficulty,category,question/en,question/zh,correct_answer/en,correct_answer/zh,incorrect_answers/en/0,incorrect_answers/zh/0,incorrect_answers/en/1,incorrect_answers/zh/1,incorrect_answers/en/2,incorrect_answers/zh/2
+multiple,easy,General Knowledge,Which company did Valve cooperate with in the creation of the Vive?,Valve在开发Vive时与哪家公司合作？,HTC,宏达电商,Oculus,Oculus,Google,谷歌,Razer,雷蛇
+multiple,easy,General Knowledge,"What is Cuba""s official, most widely spoken language?","什么是古巴""官方、最广泛使用的语言？",Spanish,西班牙语,Portuguese,葡萄牙语,French,法语,Italian,意大利语
+multiple,easy,General Knowledge,Which candy is NOT made by Mars?,哪些糖果不是火星制造的？,Almond Joy,杏仁喜悦,"M&M""s","合并与M""s",Twix,特威克斯,Snickers,偷笑
+multiple,easy,General Knowledge,Earth is located in which galaxy?,地球位于哪个星系？,The Milky Way Galaxy,银河系,The Mars Galaxy,火星银河系,The Galaxy Note,银河笔记,The Black Hole,黑洞
+multiple,easy,General Knowledge,"Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",维珍列车、维珍大西洋和维珍赛车，这些公司都是哪位著名企业家拥有的？,Richard Branson,理查德·布兰森,Alan Sugar,艾伦·舒格,Donald Trump,唐纳德·特朗普,Bill Gates,比尔·盖茨
+multiple,easy,General Knowledge,What machine element is located in the center of fidget spinners?,指尖陀螺中心的是什么机械元件？,Bearings,轴承,Axles,车轴,Gears,齿轮,Belts,带
+multiple,easy,General Knowledge,Area 51 is located in which US state?,51区位于美国哪个州？,Nevada,内华达州,Arizona,亚利桑那州,New Mexico,新墨西哥州,Utah,犹他州
+multiple,easy,General Knowledge,"The American company ""Campbell's"" is most well known for making what food product?","美国公司 &坎贝尔""s”最著名的是生产哪种食品产品？",Canned soups,罐装汤,Chocolate,巧克力,Soft drinks,软饮料,Sausages,香肠
+multiple,easy,General Knowledge,Which of these colours is NOT featured in the logo for Google?,谷歌的标志中没有出现哪种颜色？,Pink,粉红色,Yellow,黄色,Blue,蓝,Green,绿
+multiple,easy,General Knowledge,What was the first ever London Underground line to be built?,伦敦地铁的第一条线路是什么？,Metropolitan Line,大都会线,Circle Line,环线,Bakerloo Line,贝克卢线,Victoria Line,维多利亚线
+multiple,easy,General Knowledge,"Who invented the first ever chocolate bar, in 1847?",谁在1847年发明了第一块巧克力棒？,Joseph Fry,约瑟夫·弗莱,Andrew Johnson,安德鲁·约翰逊,John Cadbury,约翰·卡德伯里,John Tyler,约翰·泰勒
+multiple,easy,General Knowledge,"Waluigi""s first appearance was in what game?","瓦路易吉""他第一次出现是在哪款游戏里？",Mario Tennis 64 (N64),马里奥网球64（N64）,Wario Land: Super Mario Land 3,瓦里奥乐园：超级马里奥乐园3,Mario Party (N64),马里奥派对（N64）,Super Smash Bros. Ultimate,任天堂明星大乱斗特别版
+multiple,easy,General Knowledge,"In aerodynamics, which force pushes an object upwards?",在空气动力学中，是什么力推动物体向上？,Lift,电梯,Drag,拉,Weight,重量,Thrust,推力
+multiple,easy,General Knowledge,When was the Playstation 3 released?,Playstation 3是什么时候发布的？,"November 11, 2006",2006年11月11日,"January 8, 2007",2007年1月8日,"December 25, 2007",2007年12月25日,"July 16, 2006",2006年7月16日
+multiple,easy,General Knowledge,What is the name of the antagonist group in Danganronpa Another Episode: Ultra Despair Girls?,《弹丸论破 另一话：极度绝望少女》中的反派团体叫什么名字？,Warriors of Hope,希望战士,The Monokubs,莫诺库布斯,Warriors of Despair,绝望战士,The Ultimate Despair,终极绝望
+multiple,easy,General Knowledge,"What does the ""S"" stand for in the abbreviation SIM, as in SIM card? ","那个 ""S""SIM的缩写，比如SIM卡？",Subscriber,订户,Single,单,Secure,安全,Solid,固体
+multiple,easy,General Knowledge,Which of the following blood component forms a plug at the site of injuries?,以下哪一种血液成分在受伤部位形成堵塞？,Platelets,血小板,Red blood cells,红细胞,White blood cells,白细胞,Blood plasma,血浆
+multiple,easy,General Knowledge,Which of these holidays is NOT usually celebrated in the month of December?,这些节日中，哪些通常不在十二月庆祝？,Thanksgiving,感恩,Christmas,圣诞节,Kwanzaa,宽扎节,Hanukkah,光明
+multiple,easy,General Knowledge,Which of the following is the IATA code for Manchester Airport?,以下哪一个是曼彻斯特机场的国际航空运输协会代码？,MAN,男人,EGLL,EGL,LHR,LHR,EGCC,EGCC
+multiple,easy,General Knowledge,What technology is named after a tenth-century ruler of Denmark and Norway?,有哪些技术是以十世纪丹麦和挪威的一位统治者命名的？,Bluetooth,蓝牙,Wi-Fi,Wi-Fi,GPS,GPS,Internet,互联网
+multiple,easy,General Knowledge,"What is the French word for ""fish""?",法语中“&”的词是什么？鱼&？,poisson,泊 松,fiche,菲谢,escargot,蜗牛,mer,梅尔
+multiple,easy,General Knowledge,What does a funambulist walk on?,funambulist 走路的是什么？,A Tight Rope,走钢丝,Broken Glass,破碎的玻璃,Balls,有种,The Moon,月亮
+multiple,easy,General Knowledge,How many furlongs are there in a mile?,一英里里有多少弗隆？,Eight,八,Two,二,Four,四,Six,六
+multiple,easy,General Knowledge,What is the largest living species of penguin?,现存最大的企鹅物种是什么？,Emperor,皇帝,King,王,Gentoo,巴布亚,Adele,阿黛勒
+multiple,easy,General Knowledge,What is Cynophobia the fear of?,犬恐惧症到底害怕什么？,Dogs,狗,Birds,鸟类,Flying,飞行,Germs,病菌
+multiple,easy,General Knowledge,The Quran is the holy book of which Abrahamic religion?,《古兰经》是哪个亚伯拉罕宗教的圣书？,Islam,伊斯兰教,Christianity,基督教,Judaism,犹太教,Rastafarianism,拉斯塔法里教
+multiple,easy,General Knowledge,Which one of the following rhythm games was made by Harmonix?,以下哪一款节奏游戏是由Harmonix制作的？,Rock Band,摇滚乐团,Meat Beat Mania,肉节狂热,Guitar Hero Live,吉他英雄现场,Dance Dance Revolution,舞蹈革命
+multiple,easy,General Knowledge,What is Tasmania?,什么是塔斯马尼亚？,An Australian State,澳大利亚的一个州,"A flavor of Ben and Jerry""s ice-cream","《本与杰瑞》的风味""冰淇淋",A Psychological Disorder,一种心理障碍,The Name of a Warner Brothers Cartoon Character,华纳兄弟动画角色的名字
+multiple,easy,General Knowledge,"What word represents the letter ""T"" in the NATO phonetic alphabet?","哪个词代表字母 #039;T""在北约音标中？",Tango,探戈,Target,目标,Taxi,出租车,Turkey,土耳其
+multiple,easy,General Knowledge,"Which country, not including Japan, has the most people of Japanese descent?",除了日本外，哪个国家拥有最多的日裔？,Brazil,巴西,China,中国,South Korea,韩国,United States of America,美利坚合众国
+multiple,easy,General Knowledge,What is the currency of India and Pakistan as well as a few other Asian countries?,印度和巴基斯坦以及其他一些亚洲国家的货币是什么？,Rupee,卢比,Riyal,里亚尔,Peso,比索,Dinar,第纳尔
+multiple,easy,General Knowledge,"Where is the train station ""Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch""?","火车站在哪里？""Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch""？",Wales,威尔士,Moldova,摩尔多瓦,Czech Republic,捷克共和国,Denmark,丹麦
+multiple,easy,General Knowledge,Who is depicted on the US hundred dollar bill?,美国百元钞票上描绘了谁？,Benjamin Franklin,本杰明·富兰克林,George Washington,乔治·华盛顿,Abraham Lincoln,亚伯拉罕·林肯,Thomas Jefferson,托马斯·杰斐逊
+multiple,easy,General Knowledge,What is the largest organ of the human body?,人体最大的器官是什么？,Skin,皮肤,Heart,心,large Intestine,大肠,Liver,肝
+multiple,easy,General Knowledge,Who is the youngest person to receive a Nobel Prize?,谁是最年轻获得诺贝尔奖的人？,Malala Yousafzai,马拉拉·优素福扎伊,Lawrence Bragg,劳伦斯·布拉格,Werner Heisenberg,维尔纳·海森堡,Yasser Arafat,亚西尔·阿拉法特
+multiple,easy,General Knowledge,What is the name of the company in Lethal Company?,《致命连队》中的公司叫什么名字？,The Company,公司,Planet Scrap Co.,星球废料公司,Lethal Robotics,致命机器人,Gordian Shipping Co.,戈尔迪安航运公司
+multiple,easy,General Knowledge,"In Half-Life, what is the name of the alien that attaches to heads?",在《半条命》中，附着在头部上的外星人叫什么名字？,Headcrab,头蟹,Bullsquid,牛鱿鱼,Vortigaunt,沃蒂冈特,Facehugger,面罩抱者
+multiple,easy,General Knowledge,What is the name of the poker hand containing three of a kind and a pair?,包含三条和一对的扑克牌叫什么名字？,Full House,满座,Flush,冲洗,Straight,直,High card,高牌
+multiple,easy,General Knowledge,What is the shortest month of the year?,一年中最短的月份是哪一个？,February,二月,December,十二月,April,四月,September,九月
+multiple,easy,General Knowledge,What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?,由摔跤手Ax和Smash组成的WWF职业摔跤双打队叫什么名字？,Demolition,破坏,The Dream Team,梦之队,The Bushwhackers,丛林战士,The British Bulldogs,英国斗牛犬队
+multiple,easy,General Knowledge,The &ldquo;fairy&rdquo; type made it&rsquo;s debut in which generation of the Pokemon core series games?,那个”仙子”类型成功了”宝可梦核心系列游戏的哪一代首次亮相？,6th,第六,2nd,第二,7th,第七,4th,第四
+multiple,easy,General Knowledge,What country does sushi & karaoke come from?,哪个国家的寿司和卡拉OK是从哪里来的？,Japan,日本,China,中国,South Korea,韩国,Vietnam,越南
+multiple,easy,General Knowledge,Which of the following landmarks is not located in New York City?,以下哪些地标不位于纽约市？,Lincoln Memorial,林肯纪念堂,Empire State Building,帝国大厦,Times Square,时代广场,Central Park,中央公园
+multiple,easy,General Knowledge,Which of the following card games revolves around numbers and basic math?,以下哪款纸牌游戏围绕数字和基础数学展开？,Uno,乌诺,Go Fish,钓鱼,Twister,龙卷风,Munchkin,曼奇金

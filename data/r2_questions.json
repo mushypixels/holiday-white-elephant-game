@@ -1,0 +1,37 @@
+[
+ {
+   "question": {
+      "en": "What is the freezing point of mercury in degrees Celsius?",
+      "zh": "汞柱的冰点是多少，单位是摄氏度？"
+   },
+   "correct_answer": -38.83
+},
+ {
+   "question": {
+      "en": "How many kilometers is the circumference of Earth at the equator (approx.)?",
+      "zh": "地球在赤道的周长大约是多少公里？"
+   },
+   "correct_answer": 40075
+},
+ {
+   "question": {
+      "en": "How many bones does a newborn baby typically have before they begin to fuse?",
+      "zh": "新生儿在开始融合前通常有多少骨头？"
+   },
+   "correct_answer": 270
+},
+ {
+   "question": {
+      "en": "How many distinct prime numbers are there under 1,000,000?",
+      "zh": "1,000,000 以下有多少个不同的质数？"
+   },
+   "correct_answer": 78498
+},
+ {
+   "question": {
+      "en": "How many countries does the equator pass through?",
+      "zh": "赤道会经过多少国家？"
+   },
+   "correct_answer": 13
+}
+]

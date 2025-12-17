@@ -1,0 +1,24 @@
+{
+    "results": [
+        {
+            "question": "What is the freezing point of mercury in degrees Celsius?",
+            "correct_answer": -38.83
+        },
+        {
+            "question": "How many kilometers is the circumference of Earth at the equator (approx.)?",
+            "correct_answer": 40075
+        },
+        {
+            "question": "How many bones does a newborn baby typically have before they begin to fuse?",
+            "correct_answer": 270
+        },
+        {
+            "question": "How many distinct prime numbers are there under 1,000,000?",
+            "correct_answer": 78498
+        },
+        {
+            "question": "How many countries does the equator pass through?",
+            "correct_answer": 13
+        }
+    ]
+}

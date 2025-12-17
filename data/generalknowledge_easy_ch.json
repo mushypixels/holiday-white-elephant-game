@@ -1,0 +1,606 @@
+{
+   "response_code": 0,
+   "results": 
+      [
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "Valve在开发Vive时与哪家公司合作？",
+            "correct_answer": "宏达电商",
+            "incorrect_answers": [
+               "Oculus",
+               "谷歌",
+               "雷蛇"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "什么是古巴\"官方、最广泛使用的语言？",
+            "correct_answer": "西班牙语",
+            "incorrect_answers": [
+               "葡萄牙语",
+               "法语",
+               "意大利语"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "哪些糖果不是火星制造的？",
+            "correct_answer": "杏仁喜悦",
+            "incorrect_answers": [
+               "合并与M\"s",
+               "特威克斯",
+               "偷笑"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "地球位于哪个星系？",
+            "correct_answer": "银河系",
+            "incorrect_answers": [
+               "火星银河系",
+               "银河笔记",
+               "黑洞"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "“A3“， ”B1“， 和 ”法律&哪个物体的尺寸通常有名称？",
+            "correct_answer": "纸",
+            "incorrect_answers": [
+               "飞机",
+               "法律书籍",
+               "电话筛查"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "维珍列车、维珍大西洋和维珍赛车，这些公司都是哪位著名企业家拥有的？",
+            "correct_answer": "理查德·布兰森",
+            "incorrect_answers": [
+               "艾伦·舒格",
+               "唐纳德·特朗普",
+               "比尔·盖茨"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "指尖陀螺中心的是什么机械元件？",
+            "correct_answer": "轴承",
+            "incorrect_answers": [
+               "车轴",
+               "齿轮",
+               "带"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "51区位于美国哪个州？",
+            "correct_answer": "内华达州",
+            "incorrect_answers": [
+               "亚利桑那州",
+               "新墨西哥州",
+               "犹他州"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "美国公司 &坎贝尔\"s”最著名的是生产哪种食品产品？",
+            "correct_answer": "罐装汤",
+            "incorrect_answers": [
+               "巧克力",
+               "软饮料",
+               "香肠"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "谷歌的标志中没有出现哪种颜色？",
+            "correct_answer": "粉红色",
+            "incorrect_answers": [
+               "黄色",
+               "蓝",
+               "绿"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "伦敦地铁的第一条线路是什么？",
+            "correct_answer": "大都会线",
+            "incorrect_answers": [
+               "环线",
+               "贝克卢线",
+               "维多利亚线"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "谁在1847年发明了第一块巧克力棒？",
+            "correct_answer": "约瑟夫·弗莱",
+            "incorrect_answers": [
+               "安德鲁·约翰逊",
+               "约翰·卡德伯里",
+               "约翰·泰勒"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "瓦路易吉\"他第一次出现是在哪款游戏里？",
+            "correct_answer": "马里奥网球64（N64）",
+            "incorrect_answers": [
+               "瓦里奥乐园：超级马里奥乐园3",
+               "马里奥派对（N64）",
+               "任天堂明星大乱斗特别版"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "在空气动力学中，是什么力推动物体向上？",
+            "correct_answer": "电梯",
+            "incorrect_answers": [
+               "拉",
+               "重量",
+               "推力"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "Playstation 3是什么时候发布的？",
+            "correct_answer": "2006年11月11日",
+            "incorrect_answers": [
+               "2007年1月8日",
+               "2007年12月25日",
+               "2006年7月16日"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "《弹丸论破 另一话：极度绝望少女》中的反派团体叫什么名字？",
+            "correct_answer": "希望战士",
+            "incorrect_answers": [
+               "莫诺库布斯",
+               "绝望战士",
+               "终极绝望"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "那个 \"S\"SIM的缩写，比如SIM卡？",
+            "correct_answer": "订户",
+            "incorrect_answers": [
+               "单",
+               "安全",
+               "固体"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "以下哪一种血液成分在受伤部位形成堵塞？",
+            "correct_answer": "血小板",
+            "incorrect_answers": [
+               "红细胞",
+               "白细胞",
+               "血浆"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "这些节日中，哪些通常不在十二月庆祝？",
+            "correct_answer": "感恩",
+            "incorrect_answers": [
+               "圣诞节",
+               "宽扎节",
+               "光明"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "以下哪一个是曼彻斯特机场的国际航空运输协会代码？",
+            "correct_answer": "男人",
+            "incorrect_answers": [
+               "EGL",
+               "LHR",
+               "EGCC"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "有哪些技术是以十世纪丹麦和挪威的一位统治者命名的？",
+            "correct_answer": "蓝牙",
+            "incorrect_answers": [
+               "Wi-Fi",
+               "GPS",
+               "互联网"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "法语中“&”的词是什么？鱼&？",
+            "correct_answer": "泊 松",
+            "incorrect_answers": [
+               "菲谢",
+               "蜗牛",
+               "梅尔"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "funambulist 走路的是什么？",
+            "correct_answer": "走钢丝",
+            "incorrect_answers": [
+               "破碎的玻璃",
+               "有种",
+               "月亮"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "飞镖盘上，1号正对面是哪个号码？",
+            "correct_answer": "19",
+            "incorrect_answers": [
+               "20",
+               "12",
+               "15"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "一英里里有多少弗隆？",
+            "correct_answer": "八",
+            "incorrect_answers": [
+               "二",
+               "四",
+               "六"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "现存最大的企鹅物种是什么？",
+            "correct_answer": "皇帝",
+            "incorrect_answers": [
+               "王",
+               "巴布亚",
+               "阿黛勒"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "犬恐惧症到底害怕什么？",
+            "correct_answer": "狗",
+            "incorrect_answers": [
+               "鸟类",
+               "飞行",
+               "病菌"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "《古兰经》是哪个亚伯拉罕宗教的圣书？",
+            "correct_answer": "伊斯兰教",
+            "incorrect_answers": [
+               "基督教",
+               "犹太教",
+               "拉斯塔法里教"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "以下哪一款节奏游戏是由Harmonix制作的？",
+            "correct_answer": "摇滚乐团",
+            "incorrect_answers": [
+               "肉节狂热",
+               "吉他英雄现场",
+               "舞蹈革命"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "什么是塔斯马尼亚？",
+            "correct_answer": "澳大利亚的一个州",
+            "incorrect_answers": [
+               "《本与杰瑞》的风味\"冰淇淋",
+               "一种心理障碍",
+               "华纳兄弟动画角色的名字"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "哪个词代表字母 #039;T\"在北约音标中？",
+            "correct_answer": "探戈",
+            "incorrect_answers": [
+               "目标",
+               "出租车",
+               "土耳其"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "除了日本外，哪个国家拥有最多的日裔？",
+            "correct_answer": "巴西",
+            "incorrect_answers": [
+               "中国",
+               "韩国",
+               "美利坚合众国"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "欧盟国旗上有几颗星？",
+            "correct_answer": "12",
+            "incorrect_answers": [
+               "10",
+               "14",
+               "16"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "印度和巴基斯坦以及其他一些亚洲国家的货币是什么？",
+            "correct_answer": "卢比",
+            "incorrect_answers": [
+               "里亚尔",
+               "比索",
+               "第纳尔"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "当一个人是 & “时;羡慕——据说它们是什么颜色？",
+            "correct_answer": "绿",
+            "incorrect_answers": [
+               "红",
+               "蓝",
+               "黄色"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "火车站在哪里？\"Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch\"？",
+            "correct_answer": "威尔士",
+            "incorrect_answers": [
+               "摩尔多瓦",
+               "捷克共和国",
+               "丹麦"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "美国百元钞票上描绘了谁？",
+            "correct_answer": "本杰明·富兰克林",
+            "incorrect_answers": [
+               "乔治·华盛顿",
+               "亚伯拉罕·林肯",
+               "托马斯·杰斐逊"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "人体最大的器官是什么？",
+            "correct_answer": "皮肤",
+            "incorrect_answers": [
+               "心",
+               "大肠",
+               "肝"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "谁是最年轻获得诺贝尔奖的人？",
+            "correct_answer": "马拉拉·优素福扎伊",
+            "incorrect_answers": [
+               "劳伦斯·布拉格",
+               "维尔纳·海森堡",
+               "亚西尔·阿拉法特"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "五美元值多少五分镍币？",
+            "correct_answer": "100",
+            "incorrect_answers": [
+               "50",
+               "25",
+               "69"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "《致命连队》中的公司叫什么名字？",
+            "correct_answer": "公司",
+            "incorrect_answers": [
+               "星球废料公司",
+               "致命机器人",
+               "戈尔迪安航运公司"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "在《半条命》中，附着在头部上的外星人叫什么名字？",
+            "correct_answer": "头蟹",
+            "incorrect_answers": [
+               "牛鱿鱼",
+               "沃蒂冈特",
+               "面罩抱者"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "包含三条和一对的扑克牌叫什么名字？",
+            "correct_answer": "满座",
+            "incorrect_answers": [
+               "冲洗",
+               "直",
+               "高牌"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "一年中最短的月份是哪一个？",
+            "correct_answer": "二月",
+            "incorrect_answers": [
+               "十二月",
+               "四月",
+               "九月"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "由摔跤手Ax和Smash组成的WWF职业摔跤双打队叫什么名字？",
+            "correct_answer": "破坏",
+            "incorrect_answers": [
+               "梦之队",
+               "丛林战士",
+               "英国斗牛犬队"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "那个”仙子”类型成功了”宝可梦核心系列游戏的哪一代首次亮相？",
+            "correct_answer": "第六",
+            "incorrect_answers": [
+               "第二",
+               "第七",
+               "第四"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "哪个国家的寿司和卡拉OK是从哪里来的？",
+            "correct_answer": "日本",
+            "incorrect_answers": [
+               "中国",
+               "韩国",
+               "越南"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "以下哪些地标不位于纽约市？",
+            "correct_answer": "林肯纪念堂",
+            "incorrect_answers": [
+               "帝国大厦",
+               "时代广场",
+               "中央公园"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "一副标准扑克牌里有多少张牌？",
+            "correct_answer": "52",
+            "incorrect_answers": [
+               "32",
+               "40",
+               "64"
+            ]
+         },
+         {
+            "type": "倍数",
+            "difficulty": "容易",
+            "category": "常识",
+            "question": "以下哪款纸牌游戏围绕数字和基础数学展开？",
+            "correct_answer": "乌诺",
+            "incorrect_answers": [
+               "钓鱼",
+               "龙卷风",
+               "曼奇金"
+            ]
+         }
+      ]
+   }

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding-bottom: 3rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        #form {
+            background: rgba(0, 0, 0, 0.15);
+            padding: 0.25rem;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            height: 3rem;
+            box-sizing: border-box;
+            backdrop-filter: blur(10px);
+        }
+
+        #input {
+            border: none;
+            padding: 0 1rem;
+            flex-grow: 1;
+            border-radius: 2rem;
+            margin: 0.25rem;
+        }
+
+        #input:focus {
+            outline: none;
+        }
+
+        #form>button {
+            background: #333;
+            border: none;
+            padding: 0 1rem;
+            margin: 0.25rem;
+            border-radius: 3px;
+            outline: none;
+            color: #fff;
+        }
+
+        #messages {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #messages>li {
+            padding: 0.5rem 1rem;
+        }
+
+        #messages>li:nth-child(odd) {
+            background: #efefef;
+        }
+
+        #init-panel,
+        #question-panel,
+        #results-panel,
+        #players-panel {
+            border: solid 1px black;
+            padding: 1em;
+            margin: 2em;
+            width: 600px
+        }
+
+        #players-panel {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 300px;
+            background-color: red;
+            color: white;
+            overflow: scroll;
+            height: 400px
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row
+        }
+
+        button {
+            margin: 0.5em;
+            padding: 1em;
+            background-color: darkgreen;
+            color: white;
+            border: 0;
+            border-radius: 0.5em;
+            text-transform: uppercase;
+            font-size: 1em
+        }
+
+        .btn-sml {
+            font-size: 0.6em;
+        }
+        #buzzer,
+        #keep,
+        #steal {
+            background-color: rgb(2, 190, 27);
+            width: 300px;
+            height: 300px;
+            border-radius: 150px;
+            color: white;
+            font-size: 3em;
+            font-weight: bold;
+            border: 0;
+            flex: 1;
+            max-width: 300px;
+            max-height: 300px;
+        }
+
+        #steal {
+            background-color: red;
+        }
+
+        #keep {
+            background-color: green;
+        }
+
+        #buzzer[disabled],
+        #keep[disabled],
+        #steal[disabled] {
+            background-color: rgb(10, 34, 13);
+            color: rgb(87, 85, 85);
+        }
+
+
+
+        select {
+            font-size: 1.2em;
+            padding: 1em
+        }
+
+        .answers button {
+            font-size: 1.5em;
+            padding: 0.5em 1em
+        }
+
+        ul,li { list-style-type: none;}
+        ul,li { flex:1; justify-content: center; align-items: center;}
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <button onclick="reset()">RESET</button>
+                <button onclick="register()">REGISTER</button>
+            </div>
+            <div class="container">
+                <h4>ROUND 1</h4>
+                <div class="buttons">
+                    <button onclick="startR1()">START R1</button>
+                    <button onclick="showR1Question()">SHOW QUESTION</button>
+                    <button onclick="showR1Choices()">SHOW CHOICES</button>
+                    <button onclick="showR1CorrectAnswer()">SHOW ANSWER</button>
+                    <button onclick="resetBuzzers()">RESET BUZZERS</button>
+                </div>
+            </div>
+            <div class="container">
+                <h4>ROUND 2</h4>
+                <div class="buttons">
+                    <button onclick="startR2()">START R2</button>
+                    <button onclick="showR2Question()">SHOW QUESTION</button>
+                    <button onclick="showR2Choices()">SHOW CHOICES</button>
+                    <button onclick="showR2CorrectAnswer()">SHOW ANSWER</button>
+                    <button onclick="resetBuzzers()">RESET BUZZERS</button>
+                </div>
+            </div>
+            <div class="container">
+                <h4>ROUND 2 - SPIN</h4>
+                <div class="buttons">
+                    <button onclick="showSpin()">SHOW SPIN</button>
+                    <button onclick="spinWheel()">SPIN WHEEL</button>
+                </div>
+            </div>
+            <div class="container">
+                <h4>ROUND 3 - STEAL OR KEEP</h4>
+                <div class="buttons">
+                    <button onclick="startR3()">START R3</button>
+                    <button onclick="showStealOrKeepResults()">SHOW RESULTS</button>
+                </div>
+            </div>
+            <div class="container">
+                <h4>ANSWERS</h4>
+                <div class="answers buttons">
+                    <button onclick="checkAns(0)">A</button>
+                    <button onclick="checkAns(1)">B</button>
+                    <button onclick="checkAns(2)">C</button>
+                    <button onclick="checkAns(3)">D</button>
+                </div>
+            </div>
+            <div class="container">
+                <h4>CATEGORIES</h4>
+                <div class="buttons">
+                    <button onclick="showCategories()">Show Categories</button>
+                    <select name="categories" id="categories">
+                        <option value="any">Any Category</option>
+                        <option value="9">General Knowledge</option>
+                        <option value="10">Books</option>
+                        <option value="11">Film</option>
+                        <option value="12">Music</option>
+                        <option value="13">Musicals &amp; Theatres</option>
+                        <option value="14">Television</option>
+                        <!-- <option value="15">Video Games</option>
+                <option value="16">Board Games</option> -->
+                        <option value="17">Science &amp; Nature</option>
+                        <!-- <option value="18">Science: Computers</option>
+                <option value="19">Science: Mathematics</option>
+                <option value="20">Mythology</option> -->
+                        <option value="21">Sports</option>
+                        <option value="22">Geography</option>
+                        <option value="23">History</option>
+                        <option value="24">Politics</option>
+                        <option value="25">Art</option>
+                        <option value="26">Celebrities</option>
+                        <option value="27">Animals</option>
+                        <!-- <option value="28">Vehicles</option>
+                <option value="29">Entertainment: Comics</option>
+                <option value="30">Science: Gadgets</option>
+                <option value="31">Entertainment: Japanese Anime &amp; Manga</option>
+                <option value="32">Entertainment: Cartoon &amp; Animations</option>  -->
+                    </select>
+                    <button onclick="setCategory()">Set Category</button>
+                </div>
+            </div>
+            <div id="buzzer-panel">
+                <div class="buttons">
+                    <button id="buzzer" disabled>BUZZ</button>
+                    <button id="keep" disabled>KEEP</button>
+                    <button id="steal" disabled>SWAP</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h4>Players</h4>
+            <div id="player-list"></div>
+        </div>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io();
+
+        const uuid = crypto.randomUUID();
+        console.log(uuid);      
+        
+
+        var players = [];
+        var playerList = document.getElementById("player-list");
+
+        function reset() {
+            socket.emit('admin reset');
+        }
+
+        function startR1() {
+            socket.emit('admin start r1');
+        }
+
+        function startR2() {
+            socket.emit('admin start r2');
+        }
+
+        function startR3() {
+            socket.emit('admin start r3');
+        }
+
+        function showStealOrKeepResults() {
+            socket.emit('admin show stealorkeep results');
+        }
+
+        function showR1Question() {
+            socket.emit('admin r1 show question');
+        }
+
+        function showR1Choices() {
+            socket.emit('admin r1 show choices');
+        }
+
+        function showR1CorrectAnswer() {
+            socket.emit('admin r1 show correct answer');
+        }
+
+        function showR2Question() {
+            socket.emit('admin r2 show question');
+        }
+
+        function showR2Choices() {
+            socket.emit('admin r2 show choices');
+        }
+
+        function showR2CorrectAnswer() {
+            socket.emit('admin r2 show correct answer');
+        }
+
+
+        function showSpin() {
+            socket.emit('admin show spin');
+        }
+
+        function spinWheel() {
+            socket.emit('admin spin wheel');
+        }
+        function resetBuzzers() {
+            socket.emit("admin reset buzzers");
+        }
+
+        function checkAns(ans) {
+            socket.emit("admin show answer", ans);
+        }
+
+        function setCategory() {
+            var e = document.getElementById("categories");
+            var value = e.value;
+            var text = e.options[e.selectedIndex].text;
+            if (value == "any")
+                value = null;
+            socket.emit("admin set category", value);
+        }
+
+        function showCategories() {
+            socket.emit("admin show categories");
+        }
+
+
+        function deletePlayer(uuid) {
+            socket.emit("unregister", uuid);
+        }
+        function updatePlayerList() {
+            let html = "<ul>"
+            for (i = 0; i < players.length; i++) {
+                html += "<li>";
+                html += players[i].name;
+                html += "<button class='btn-sml' onclick='deletePlayer(\"" + players[i].uuid + "\")'>Delete</button>";
+                html += "</li>";
+            }
+            html += "</ul>";
+            playerList.innerHTML = html;
+            console.log("updated player list", players);
+        }
+
+        socket.on("admin players", function (p) {
+            console.log("show registed", p);
+            players = p;
+            updatePlayerList()
+        });
+
+        var buzzer = document.getElementById('buzzer');
+        var stealBuzzer = document.getElementById('steal');
+        var keepBuzzer = document.getElementById('keep');
+
+        function show(id, type = "block") { document.getElementById(id).style.display = type; }
+        function hide(id) { document.getElementById(id).style.display = "none"; }
+        function enable(id) { document.getElementById(id).disabled = false; }
+        function disable(id) { document.getElementById(id).disabled = true; }
+
+        socket.on('reset buzzer', function () {
+            enable("buzzer");
+        });
+
+        socket.on('lock buzzer', function () {
+            disable("buzzer");
+        });
+
+        keepBuzzer.addEventListener('click', function (e) {
+            e.preventDefault();
+            socket.emit('buzz keep', uuid);
+            disable("steal");
+
+        });
+
+        socket.on('show stealorkeep', function () {
+            disable("buzzer");
+            enable("steal");
+            enable("keep");
+        });
+
+
+        stealBuzzer.addEventListener('click', function (e) {
+            e.preventDefault();
+            socket.emit('buzz steal', uuid);
+            disable("keep");
+        });
+
+        buzzer.addEventListener('click', function (e) {
+            e.preventDefault();
+            socket.emit('buzz', uuid);
+            disable("buzzer");
+        });
+
+        function register() {
+            socket.emit('register', {uuid: uuid, name: "ADMIN"});
+        }
+
+        window.onload = function () {
+            socket.emit('registered');
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1190 @@
+[
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which company did Valve cooperate with in the creation of the Vive?",
+      "zh": "Valve在开发Vive时与哪家公司合作？"
+   },
+   "correct_answer": {
+      "en": "HTC",
+      "zh": "宏达电商"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Oculus",
+         "zh": "Oculus"
+      },
+      {
+         "en": "Google",
+         "zh": "谷歌"
+      },
+      {
+         "en": "Razer",
+         "zh": "雷蛇"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is Cuba\"s official, most widely spoken language?",
+      "zh": "什么是古巴\"官方、最广泛使用的语言？"
+   },
+   "correct_answer": {
+      "en": "Spanish",
+      "zh": "西班牙语"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Portuguese",
+         "zh": "葡萄牙语"
+      },
+      {
+         "en": "French",
+         "zh": "法语"
+      },
+      {
+         "en": "Italian",
+         "zh": "意大利语"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which candy is NOT made by Mars?",
+      "zh": "哪些糖果不是火星制造的？"
+   },
+   "correct_answer": {
+      "en": "Almond Joy",
+      "zh": "杏仁喜悦"
+   },
+   "incorrect_answers": [
+      {
+         "en": "M&M\"s",
+         "zh": "合并与M\"s"
+      },
+      {
+         "en": "Twix",
+         "zh": "特威克斯"
+      },
+      {
+         "en": "Snickers",
+         "zh": "偷笑"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Earth is located in which galaxy?",
+      "zh": "地球位于哪个星系？"
+   },
+   "correct_answer": {
+      "en": "The Milky Way Galaxy",
+      "zh": "银河系"
+   },
+   "incorrect_answers": [
+      {
+         "en": "The Mars Galaxy",
+         "zh": "火星银河系"
+      },
+      {
+         "en": "The Galaxy Note",
+         "zh": "银河笔记"
+      },
+      {
+         "en": "The Black Hole",
+         "zh": "黑洞"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
+      "zh": "维珍列车、维珍大西洋和维珍赛车，这些公司都是哪位著名企业家拥有的？"
+   },
+   "correct_answer": {
+      "en": "Richard Branson",
+      "zh": "理查德·布兰森"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Alan Sugar",
+         "zh": "艾伦·舒格"
+      },
+      {
+         "en": "Donald Trump",
+         "zh": "唐纳德·特朗普"
+      },
+      {
+         "en": "Bill Gates",
+         "zh": "比尔·盖茨"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What machine element is located in the center of fidget spinners?",
+      "zh": "指尖陀螺中心的是什么机械元件？"
+   },
+   "correct_answer": {
+      "en": "Bearings",
+      "zh": "轴承"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Axles",
+         "zh": "车轴"
+      },
+      {
+         "en": "Gears",
+         "zh": "齿轮"
+      },
+      {
+         "en": "Belts",
+         "zh": "带"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Area 51 is located in which US state?",
+      "zh": "51区位于美国哪个州？"
+   },
+   "correct_answer": {
+      "en": "Nevada",
+      "zh": "内华达州"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Arizona",
+         "zh": "亚利桑那州"
+      },
+      {
+         "en": "New Mexico",
+         "zh": "新墨西哥州"
+      },
+      {
+         "en": "Utah",
+         "zh": "犹他州"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "The American company \"Campbell's\" is most well known for making what food product?",
+      "zh": "美国公司 &坎贝尔\"s”最著名的是生产哪种食品产品？"
+   },
+   "correct_answer": {
+      "en": "Canned soups",
+      "zh": "罐装汤"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Chocolate",
+         "zh": "巧克力"
+      },
+      {
+         "en": "Soft drinks",
+         "zh": "软饮料"
+      },
+      {
+         "en": "Sausages",
+         "zh": "香肠"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which of these colours is NOT featured in the logo for Google?",
+      "zh": "谷歌的标志中没有出现哪种颜色？"
+   },
+   "correct_answer": {
+      "en": "Pink",
+      "zh": "粉红色"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Yellow",
+         "zh": "黄色"
+      },
+      {
+         "en": "Blue",
+         "zh": "蓝"
+      },
+      {
+         "en": "Green",
+         "zh": "绿"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What was the first ever London Underground line to be built?",
+      "zh": "伦敦地铁的第一条线路是什么？"
+   },
+   "correct_answer": {
+      "en": "Metropolitan Line",
+      "zh": "大都会线"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Circle Line",
+         "zh": "环线"
+      },
+      {
+         "en": "Bakerloo Line",
+         "zh": "贝克卢线"
+      },
+      {
+         "en": "Victoria Line",
+         "zh": "维多利亚线"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Who invented the first ever chocolate bar, in 1847?",
+      "zh": "谁在1847年发明了第一块巧克力棒？"
+   },
+   "correct_answer": {
+      "en": "Joseph Fry",
+      "zh": "约瑟夫·弗莱"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Andrew Johnson",
+         "zh": "安德鲁·约翰逊"
+      },
+      {
+         "en": "John Cadbury",
+         "zh": "约翰·卡德伯里"
+      },
+      {
+         "en": "John Tyler",
+         "zh": "约翰·泰勒"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Waluigi\"s first appearance was in what game?",
+      "zh": "瓦路易吉\"他第一次出现是在哪款游戏里？"
+   },
+   "correct_answer": {
+      "en": "Mario Tennis 64 (N64)",
+      "zh": "马里奥网球64（N64）"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Wario Land: Super Mario Land 3",
+         "zh": "瓦里奥乐园：超级马里奥乐园3"
+      },
+      {
+         "en": "Mario Party (N64)",
+         "zh": "马里奥派对（N64）"
+      },
+      {
+         "en": "Super Smash Bros. Ultimate",
+         "zh": "任天堂明星大乱斗特别版"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "In aerodynamics, which force pushes an object upwards?",
+      "zh": "在空气动力学中，是什么力推动物体向上？"
+   },
+   "correct_answer": {
+      "en": "Lift",
+      "zh": "电梯"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Drag",
+         "zh": "拉"
+      },
+      {
+         "en": "Weight",
+         "zh": "重量"
+      },
+      {
+         "en": "Thrust",
+         "zh": "推力"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "When was the Playstation 3 released?",
+      "zh": "Playstation 3是什么时候发布的？"
+   },
+   "correct_answer": {
+      "en": "November 11, 2006",
+      "zh": "2006年11月11日"
+   },
+   "incorrect_answers": [
+      {
+         "en": "January 8, 2007",
+         "zh": "2007年1月8日"
+      },
+      {
+         "en": "December 25, 2007",
+         "zh": "2007年12月25日"
+      },
+      {
+         "en": "July 16, 2006",
+         "zh": "2006年7月16日"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is the name of the antagonist group in Danganronpa Another Episode: Ultra Despair Girls?",
+      "zh": "《弹丸论破 另一话：极度绝望少女》中的反派团体叫什么名字？"
+   },
+   "correct_answer": {
+      "en": "Warriors of Hope",
+      "zh": "希望战士"
+   },
+   "incorrect_answers": [
+      {
+         "en": "The Monokubs",
+         "zh": "莫诺库布斯"
+      },
+      {
+         "en": "Warriors of Despair",
+         "zh": "绝望战士"
+      },
+      {
+         "en": "The Ultimate Despair",
+         "zh": "终极绝望"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What does the \"S\" stand for in the abbreviation SIM, as in SIM card? ",
+      "zh": "那个 \"S\"SIM的缩写，比如SIM卡？"
+   },
+   "correct_answer": {
+      "en": "Subscriber",
+      "zh": "订户"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Single",
+         "zh": "单"
+      },
+      {
+         "en": "Secure",
+         "zh": "安全"
+      },
+      {
+         "en": "Solid",
+         "zh": "固体"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which of the following blood component forms a plug at the site of injuries?",
+      "zh": "以下哪一种血液成分在受伤部位形成堵塞？"
+   },
+   "correct_answer": {
+      "en": "Platelets",
+      "zh": "血小板"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Red blood cells",
+         "zh": "红细胞"
+      },
+      {
+         "en": "White blood cells",
+         "zh": "白细胞"
+      },
+      {
+         "en": "Blood plasma",
+         "zh": "血浆"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which of these holidays is NOT usually celebrated in the month of December?",
+      "zh": "这些节日中，哪些通常不在十二月庆祝？"
+   },
+   "correct_answer": {
+      "en": "Thanksgiving",
+      "zh": "感恩"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Christmas",
+         "zh": "圣诞节"
+      },
+      {
+         "en": "Kwanzaa",
+         "zh": "宽扎节"
+      },
+      {
+         "en": "Hanukkah",
+         "zh": "光明"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which of the following is the IATA code for Manchester Airport?",
+      "zh": "以下哪一个是曼彻斯特机场的国际航空运输协会代码？"
+   },
+   "correct_answer": {
+      "en": "MAN",
+      "zh": "男人"
+   },
+   "incorrect_answers": [
+      {
+         "en": "EGLL",
+         "zh": "EGL"
+      },
+      {
+         "en": "LHR",
+         "zh": "LHR"
+      },
+      {
+         "en": "EGCC",
+         "zh": "EGCC"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What technology is named after a tenth-century ruler of Denmark and Norway?",
+      "zh": "有哪些技术是以十世纪丹麦和挪威的一位统治者命名的？"
+   },
+   "correct_answer": {
+      "en": "Bluetooth",
+      "zh": "蓝牙"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Wi-Fi",
+         "zh": "Wi-Fi"
+      },
+      {
+         "en": "GPS",
+         "zh": "GPS"
+      },
+      {
+         "en": "Internet",
+         "zh": "互联网"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is the French word for \"fish\"?",
+      "zh": "法语中“&”的词是什么？鱼&？"
+   },
+   "correct_answer": {
+      "en": "poisson",
+      "zh": "泊 松"
+   },
+   "incorrect_answers": [
+      {
+         "en": "fiche",
+         "zh": "菲谢"
+      },
+      {
+         "en": "escargot",
+         "zh": "蜗牛"
+      },
+      {
+         "en": "mer",
+         "zh": "梅尔"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What does a funambulist walk on?",
+      "zh": "funambulist 走路的是什么？"
+   },
+   "correct_answer": {
+      "en": "A Tight Rope",
+      "zh": "走钢丝"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Broken Glass",
+         "zh": "破碎的玻璃"
+      },
+      {
+         "en": "Balls",
+         "zh": "有种"
+      },
+      {
+         "en": "The Moon",
+         "zh": "月亮"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "How many furlongs are there in a mile?",
+      "zh": "一英里里有多少弗隆？"
+   },
+   "correct_answer": {
+      "en": "Eight",
+      "zh": "八"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Two",
+         "zh": "二"
+      },
+      {
+         "en": "Four",
+         "zh": "四"
+      },
+      {
+         "en": "Six",
+         "zh": "六"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is the largest living species of penguin?",
+      "zh": "现存最大的企鹅物种是什么？"
+   },
+   "correct_answer": {
+      "en": "Emperor",
+      "zh": "皇帝"
+   },
+   "incorrect_answers": [
+      {
+         "en": "King",
+         "zh": "王"
+      },
+      {
+         "en": "Gentoo",
+         "zh": "巴布亚"
+      },
+      {
+         "en": "Adele",
+         "zh": "阿黛勒"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is Cynophobia the fear of?",
+      "zh": "犬恐惧症到底害怕什么？"
+   },
+   "correct_answer": {
+      "en": "Dogs",
+      "zh": "狗"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Birds",
+         "zh": "鸟类"
+      },
+      {
+         "en": "Flying",
+         "zh": "飞行"
+      },
+      {
+         "en": "Germs",
+         "zh": "病菌"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "The Quran is the holy book of which Abrahamic religion?",
+      "zh": "《古兰经》是哪个亚伯拉罕宗教的圣书？"
+   },
+   "correct_answer": {
+      "en": "Islam",
+      "zh": "伊斯兰教"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Christianity",
+         "zh": "基督教"
+      },
+      {
+         "en": "Judaism",
+         "zh": "犹太教"
+      },
+      {
+         "en": "Rastafarianism",
+         "zh": "拉斯塔法里教"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which one of the following rhythm games was made by Harmonix?",
+      "zh": "以下哪一款节奏游戏是由Harmonix制作的？"
+   },
+   "correct_answer": {
+      "en": "Rock Band",
+      "zh": "摇滚乐团"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Meat Beat Mania",
+         "zh": "肉节狂热"
+      },
+      {
+         "en": "Guitar Hero Live",
+         "zh": "吉他英雄现场"
+      },
+      {
+         "en": "Dance Dance Revolution",
+         "zh": "舞蹈革命"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is Tasmania?",
+      "zh": "什么是塔斯马尼亚？"
+   },
+   "correct_answer": {
+      "en": "An Australian State",
+      "zh": "澳大利亚的一个州"
+   },
+   "incorrect_answers": [
+      {
+         "en": "A flavor of Ben and Jerry\"s ice-cream",
+         "zh": "《本与杰瑞》的风味\"冰淇淋"
+      },
+      {
+         "en": "A Psychological Disorder",
+         "zh": "一种心理障碍"
+      },
+      {
+         "en": "The Name of a Warner Brothers Cartoon Character",
+         "zh": "华纳兄弟动画角色的名字"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What word represents the letter \"T\" in the NATO phonetic alphabet?",
+      "zh": "哪个词代表字母 #039;T\"在北约音标中？"
+   },
+   "correct_answer": {
+      "en": "Tango",
+      "zh": "探戈"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Target",
+         "zh": "目标"
+      },
+      {
+         "en": "Taxi",
+         "zh": "出租车"
+      },
+      {
+         "en": "Turkey",
+         "zh": "土耳其"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which country, not including Japan, has the most people of Japanese descent?",
+      "zh": "除了日本外，哪个国家拥有最多的日裔？"
+   },
+   "correct_answer": {
+      "en": "Brazil",
+      "zh": "巴西"
+   },
+   "incorrect_answers": [
+      {
+         "en": "China",
+         "zh": "中国"
+      },
+      {
+         "en": "South Korea",
+         "zh": "韩国"
+      },
+      {
+         "en": "United States of America",
+         "zh": "美利坚合众国"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is the currency of India and Pakistan as well as a few other Asian countries?",
+      "zh": "印度和巴基斯坦以及其他一些亚洲国家的货币是什么？"
+   },
+   "correct_answer": {
+      "en": "Rupee",
+      "zh": "卢比"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Riyal",
+         "zh": "里亚尔"
+      },
+      {
+         "en": "Peso",
+         "zh": "比索"
+      },
+      {
+         "en": "Dinar",
+         "zh": "第纳尔"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Where is the train station \"Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch\"?",
+      "zh": "火车站在哪里？\"Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch\"？"
+   },
+   "correct_answer": {
+      "en": "Wales",
+      "zh": "威尔士"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Moldova",
+         "zh": "摩尔多瓦"
+      },
+      {
+         "en": "Czech Republic",
+         "zh": "捷克共和国"
+      },
+      {
+         "en": "Denmark",
+         "zh": "丹麦"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Who is depicted on the US hundred dollar bill?",
+      "zh": "美国百元钞票上描绘了谁？"
+   },
+   "correct_answer": {
+      "en": "Benjamin Franklin",
+      "zh": "本杰明·富兰克林"
+   },
+   "incorrect_answers": [
+      {
+         "en": "George Washington",
+         "zh": "乔治·华盛顿"
+      },
+      {
+         "en": "Abraham Lincoln",
+         "zh": "亚伯拉罕·林肯"
+      },
+      {
+         "en": "Thomas Jefferson",
+         "zh": "托马斯·杰斐逊"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is the largest organ of the human body?",
+      "zh": "人体最大的器官是什么？"
+   },
+   "correct_answer": {
+      "en": "Skin",
+      "zh": "皮肤"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Heart",
+         "zh": "心"
+      },
+      {
+         "en": "large Intestine",
+         "zh": "大肠"
+      },
+      {
+         "en": "Liver",
+         "zh": "肝"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Who is the youngest person to receive a Nobel Prize?",
+      "zh": "谁是最年轻获得诺贝尔奖的人？"
+   },
+   "correct_answer": {
+      "en": "Malala Yousafzai",
+      "zh": "马拉拉·优素福扎伊"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Lawrence Bragg",
+         "zh": "劳伦斯·布拉格"
+      },
+      {
+         "en": "Werner Heisenberg",
+         "zh": "维尔纳·海森堡"
+      },
+      {
+         "en": "Yasser Arafat",
+         "zh": "亚西尔·阿拉法特"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is the name of the company in Lethal Company?",
+      "zh": "《致命连队》中的公司叫什么名字？"
+   },
+   "correct_answer": {
+      "en": "The Company",
+      "zh": "公司"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Planet Scrap Co.",
+         "zh": "星球废料公司"
+      },
+      {
+         "en": "Lethal Robotics",
+         "zh": "致命机器人"
+      },
+      {
+         "en": "Gordian Shipping Co.",
+         "zh": "戈尔迪安航运公司"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "In Half-Life, what is the name of the alien that attaches to heads?",
+      "zh": "在《半条命》中，附着在头部上的外星人叫什么名字？"
+   },
+   "correct_answer": {
+      "en": "Headcrab",
+      "zh": "头蟹"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Bullsquid",
+         "zh": "牛鱿鱼"
+      },
+      {
+         "en": "Vortigaunt",
+         "zh": "沃蒂冈特"
+      },
+      {
+         "en": "Facehugger",
+         "zh": "面罩抱者"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is the name of the poker hand containing three of a kind and a pair?",
+      "zh": "包含三条和一对的扑克牌叫什么名字？"
+   },
+   "correct_answer": {
+      "en": "Full House",
+      "zh": "满座"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Flush",
+         "zh": "冲洗"
+      },
+      {
+         "en": "Straight",
+         "zh": "直"
+      },
+      {
+         "en": "High card",
+         "zh": "高牌"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What is the shortest month of the year?",
+      "zh": "一年中最短的月份是哪一个？"
+   },
+   "correct_answer": {
+      "en": "February",
+      "zh": "二月"
+   },
+   "incorrect_answers": [
+      {
+         "en": "December",
+         "zh": "十二月"
+      },
+      {
+         "en": "April",
+         "zh": "四月"
+      },
+      {
+         "en": "September",
+         "zh": "九月"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "zh": "由摔跤手Ax和Smash组成的WWF职业摔跤双打队叫什么名字？"
+   },
+   "correct_answer": {
+      "en": "Demolition",
+      "zh": "破坏"
+   },
+   "incorrect_answers": [
+      {
+         "en": "The Dream Team",
+         "zh": "梦之队"
+      },
+      {
+         "en": "The Bushwhackers",
+         "zh": "丛林战士"
+      },
+      {
+         "en": "The British Bulldogs",
+         "zh": "英国斗牛犬队"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "The &ldquo;fairy&rdquo; type made it&rsquo;s debut in which generation of the Pokemon core series games?",
+      "zh": "那个”仙子”类型成功了”宝可梦核心系列游戏的哪一代首次亮相？"
+   },
+   "correct_answer": {
+      "en": "6th",
+      "zh": "第六"
+   },
+   "incorrect_answers": [
+      {
+         "en": "2nd",
+         "zh": "第二"
+      },
+      {
+         "en": "7th",
+         "zh": "第七"
+      },
+      {
+         "en": "4th",
+         "zh": "第四"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "What country does sushi & karaoke come from?",
+      "zh": "哪个国家的寿司和卡拉OK是从哪里来的？"
+   },
+   "correct_answer": {
+      "en": "Japan",
+      "zh": "日本"
+   },
+   "incorrect_answers": [
+      {
+         "en": "China",
+         "zh": "中国"
+      },
+      {
+         "en": "South Korea",
+         "zh": "韩国"
+      },
+      {
+         "en": "Vietnam",
+         "zh": "越南"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which of the following landmarks is not located in New York City?",
+      "zh": "以下哪些地标不位于纽约市？"
+   },
+   "correct_answer": {
+      "en": "Lincoln Memorial",
+      "zh": "林肯纪念堂"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Empire State Building",
+         "zh": "帝国大厦"
+      },
+      {
+         "en": "Times Square",
+         "zh": "时代广场"
+      },
+      {
+         "en": "Central Park",
+         "zh": "中央公园"
+      }
+   ]
+},
+ {
+   "type": "multiple",
+   "difficulty": "easy",
+   "category": "General Knowledge",
+   "question": {
+      "en": "Which of the following card games revolves around numbers and basic math?",
+      "zh": "以下哪款纸牌游戏围绕数字和基础数学展开？"
+   },
+   "correct_answer": {
+      "en": "Uno",
+      "zh": "乌诺"
+   },
+   "incorrect_answers": [
+      {
+         "en": "Go Fish",
+         "zh": "钓鱼"
+      },
+      {
+         "en": "Twister",
+         "zh": "龙卷风"
+      },
+      {
+         "en": "Munchkin",
+         "zh": "曼奇金"
+      }
+   ]
+}
+]
