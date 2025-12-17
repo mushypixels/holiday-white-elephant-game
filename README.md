@@ -7,9 +7,10 @@ HARDWARE REQUIREMENTS:
 4. Mobile phone for each player 
 
 GAME BROWSER SETUP:
-/yoururl:3000/            = player brower on their phone
-/yoururl:3000/display    = connect this to the screen via AirPlay etc
-/yoururl:3000/admin      = the games master should have this on their phone. He controls what is shown on the display and the user's phone. 
+
+/yoururl:3000/          = player brower on their phone
+/yoururl:3000/display   = connect this to the screen via AirPlay etc
+/yoururl:3000/admin     = the games master should have this on their phone. He controls what is shown on the display and the user's phone. 
 
 
 GAME RULES:
