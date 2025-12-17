@@ -22,6 +22,9 @@ GAME RULES:
 5. Round 2: Spin the wheel, each player takes it in turn to spin the wheel (currently the admin spins it for them). The player must then do what is on the wheel segment.
 6. Round 2: Game ends when all players have unopened their gifts
 
+NOTES:
+1. It calls https://opentdb.com/api.php to fetch a block of questions at the start of Round 1.
+2. Round 2 uses a local json file with a prefixed list of questions
 
 
 IMPROVEMENTS NEEDED:
