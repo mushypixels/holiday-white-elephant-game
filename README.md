@@ -23,7 +23,7 @@ GAME RULES:
 6. Round 2: Game ends when all players have unopened their gifts
 
 NOTES:
-1. It calls https://opentdb.com/api.php to fetch a block of questions at the start of Round 1.
+1. It calls the Open Trivia DB API (https://opentdb.com) to fetch a block of questions at the start of Round 1.
 2. Round 2 uses a local json file with a prefixed list of questions
 
 
